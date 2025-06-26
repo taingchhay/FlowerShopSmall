@@ -1,4 +1,9 @@
-  [[redirects]]
-     from = "/*"
-     to = "../FlowerShopSmall/index.js"
-     status = 200
+[build]
+  base = "FlowerShopSmall/FlowerShopSmall"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
